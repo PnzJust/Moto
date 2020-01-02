@@ -3,7 +3,9 @@ function afiseaza_data() {
 	let new_data = new Date;
 	x.innerHTML = new_data.toDateString();
 }
-
+function sunt_cuvinte(x){
+	return typeof(x) == 'string';
+}
 function start(){
 	// classa Math
 	let x = document.getElementById("sold");
@@ -11,8 +13,18 @@ function start(){
 	
 	// clasa String
 	x = document.getElementById("nume");
-	var nume = "nume: bbbbb";
-	nume = nume.replace("bbbbb", "aaaa");
-	nume = nume.toUpperCase();
-	x.innerHTML = nume;
+	var text = "nume: bbbbb";
+	text = text.replace("bbbbb", "aaaa");
+	text = text.toUpperCase();
+	x.innerHTML = text;
+
+	// clasa Array
+	x = document.getElementById("modele");
+	var pref1 = ["Honda", "BMW", 232, 12];
+	var pref2 = ["Kawasaki", 192, "Susuki", 1234];
+	var toate = pref1.concat(pref2);
+	toate = toate.filter(sunt_cuvinte);
+	text = "PREFERINTE: " + toate;
+	x.innerHTML = text;
+
 }
