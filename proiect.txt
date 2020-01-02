@@ -1,15 +1,13 @@
 TW - proiect partea a II-a
 
--cate o metoda din clasele Math, Date, Array, String
--for (of), let,
--innerHTML, getComputedStyle
+-cate o metoda din clasele Math, Array, String
+-for (of)
+-getComputedStyle
 -schimbare clasa cu className, classList
 -eveniment-o proprietate (pageX, key, target, etc)
--eveniment -o metoda (preventDefault, stopPropagation)
+-eveniment-o metoda (preventDefault, stopPropagation)
 -addEventListener cu parametrul al treilea =true
 -setInterval cu al 3-lea parametru, clearInterval
 -inputuri functionale de tip text, buton, radio
 -localStorage, Json parse si stringify
 -parcurgere arbori DOM :parentElement, children
-
-Cei care nu au prezente active la laborator -pot adauga puncte pentru exemple neelementare de stilizare flex, stilizare cu grid, grafica svg, grafica canvas drag and drop, node js
