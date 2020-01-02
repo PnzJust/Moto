@@ -1,4 +1,4 @@
-#p_data{
+#p_data, #p_dimensiuni{
 	display: inline-block;
 }
 button{
@@ -14,5 +14,6 @@ button{
 }
 
 img{
+	height: 75px;
 	width: 80px;
 }

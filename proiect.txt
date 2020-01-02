@@ -1,7 +1,6 @@
 TW - proiect partea a II-a
 
 -for (of)
--getComputedStyle
 -schimbare clasa cu className, classList
 -eveniment-o proprietate (pageX, key, target, etc)
 -eveniment-o metoda (preventDefault, stopPropagation)

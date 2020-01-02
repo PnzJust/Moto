@@ -3,6 +3,14 @@ function afiseaza_data() {
 	let new_data = new Date;
 	x.innerHTML = new_data.toDateString();
 }
+
+function afiseaza_dimensiuni() {
+	let x = document.getElementById("p_dimensiuni");
+	var elem = document.getElementById("poza");
+	var dimensiuni = window.getComputedStyle(elem, null);
+	x.innerHTML = dimensiuni.getPropertyValue("height") + " x " + dimensiuni.getPropertyValue("width");
+}
+
 function sunt_cuvinte(x){
 	return typeof(x) == 'string';
 }
