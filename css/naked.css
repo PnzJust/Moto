@@ -1,0 +1,10 @@
+span#gol {
+  vertical-align:5px;
+}
+span#ascuns{
+	visibility:collapse;
+}
+img{
+	height: 300px;
+	transform:rotate(-10deg);
+}

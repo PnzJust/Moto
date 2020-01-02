@@ -1,0 +1,35 @@
+#marci{ 
+	border: 1px solid #333;
+	padding: 0px;
+	margin: 0px;
+}
+#marci th{ 
+	border: 1px solid #333;
+	color:green;
+}
+#marci td{ 
+	border: 1px solid #333;
+	color:red;
+	text-align: center;
+}
+#marci td:hover{
+	color:green;
+}
+table {
+  width: 100%;
+}
+
+#honda:hover {
+	background-image:url(../galerie/honda.jpg);
+	background-size: cover;
+	background-position: center;
+}
+#kawasaki:hover{
+	background-image:url(../galerie/kawasaki.jpg);
+	background-size:cover;
+	background-position: center;
+}
+#yamaha:hover{
+	background-image:url(../galerie/yamaha.png);
+	background-size:cover;
+}

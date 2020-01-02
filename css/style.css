@@ -1,0 +1,141 @@
+.dropdown{
+    display:inline-block;
+	color:#999999;
+	padding:12px 20px 0 20px;
+	position: relative;
+}
+.dropdown:hover{	
+	color:#FFFFFF;
+	font-size: 150%;
+}
+.dropdown ol:hover{	
+	color:#FFFF00;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: grey;
+  padding: 5px 0px;
+}
+.dropdown-content ol{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background: none;
+}
+span#submeniul{
+    display:block;
+	color:white;
+	font-weight:bold;
+	padding:0px 0px 0 0px;
+	height:24px;
+	font-size:120%;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+@media screen and (min-width: 900px){
+body{ 
+      background-image:url(../imagini/back.jpg);
+	  background-position: center;
+	  background-attachment:fixed;
+}
+}
+@media screen and (max-width: 900px){
+body{ 
+      background-color: black;
+}
+}
+a{ 
+	color:#FFF;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:16px;
+}
+p{
+	text-align: justify;
+	color:white;
+}
+h1{
+	text-align: center;
+	color:green;
+}
+h2{
+	text-align: left;
+	color:green;
+}
+h3{
+	text-align: right;
+	color:green;
+}
+h4{
+	color:green;
+}
+h5{	
+	color:green;
+}
+h6{
+	color:green;
+}
+@media screen and (min-width: 900px){
+#continut{
+	width:815px;
+	background-color:black;
+}
+}
+@media screen and (max-width: 900px){
+#continut{
+	width:100%;
+	margin:0;
+	background-color:black;
+}
+}
+@media screen and (min-width: 900px){
+#panoul{
+	background-image:url(../imagini/panou.jpg);
+	background-repeat:no-repeat;
+	width:810px;
+	height:289px;
+  	transition: width 2s, height 2s, transform 2s;
+}
+#panoul:hover{
+  transform: rotate(360deg);
+}
+}
+@media screen and (max-width: 900px){
+#panoul{
+	background-image:url(../imagini/panou.jpg);
+	background-repeat:no-repeat;
+	width:0px;
+	height:0px;
+}
+}
+ul#meniul{
+	margin:0;
+	padding:0;
+	width:auto;
+	position:relative;
+	display: flex;
+	flex-wrap: wrap;
+	height:36px;
+	font-size:12px;
+	font-weight:bold;
+	background-color: black;
+	font-family: sans-serif;
+}
+
+ul#meniul li{
+	display:flex;
+	float:left;
+}
+	
+ul#meniul li a{
+    display:inline-block;
+	color: white;
+	padding:12px 20px 0 20px;
+}
+ul#meniul li a:hover{	
+	color:green;
+	font-size: 150%;
+}

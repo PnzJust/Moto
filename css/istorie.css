@@ -1,0 +1,33 @@
+.buton{
+  background-color: green; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 1.5em;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  position: sticky;
+  top: 0;
+
+}
+
+.ascuns{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.buton:hover {
+  background-color: black;
+  color: green;}
+
+#istorie{
+  display: none;
+}
+
+span{
+  font-size:125%;
+}
+aside{
+  color:blue;
+}

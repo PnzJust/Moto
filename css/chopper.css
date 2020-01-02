@@ -1,0 +1,9 @@
+nav{
+	color:red;
+}
+a:nth-of-type(2n){
+	color:red;
+}
+a:nth-of-type(2n+1){
+	color:green;
+}
