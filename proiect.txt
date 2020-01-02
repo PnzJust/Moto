@@ -1,6 +1,6 @@
 TW - proiect partea a II-a
 
--cate o metoda din clasele Math, Array, String
+-cate o metoda din clasele 	Array
 -for (of)
 -getComputedStyle
 -schimbare clasa cu className, classList

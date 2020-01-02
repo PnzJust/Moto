@@ -4,3 +4,15 @@
 button{
 	margin-bottom: 10px;
 }
+
+.right{
+	text-align: right;
+}
+
+.center{
+	text-align: center;
+}
+
+img{
+	width: 80px;
+}
