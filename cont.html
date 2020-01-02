@@ -53,11 +53,19 @@
 				<p class="center" id="modele"></p>
 
 			<div align="left">
-				<button onclick="afiseaza_data()">Afiseaza data</button>
+				<input type="button" onclick="afiseaza_data()" value="Afiseaza data">
 				<p id="p_data"></p>
 				<br>
 				<button onclick="afiseaza_dimensiuni()">Afiseaza dimensiunile imaginii</button>
 				<p id="p_dimensiuni"></p>
+				<br>
+				<p>Navigheaza catre:</p> <input type="text" id="marca"><button onclick="go()">GO</button>
+
+				<h2><p>Schimba culoarea textului</p></h2>
+				<section><input type="radio" name="culoarea" value="red" onclick="f(this)">Rosu</section>
+				<section><input type="radio" name="culoarea" value="green" onclick="f(this)">Verde</section>
+				<section><input type="radio" name="culoarea" value="blue" onclick="f(this)">Albastru</section>
+
 			</div>
 
 		</div>

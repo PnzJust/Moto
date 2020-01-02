@@ -6,6 +6,5 @@ TW - proiect partea a II-a
 -eveniment-o metoda (preventDefault, stopPropagation)
 -addEventListener cu parametrul al treilea =true
 -setInterval cu al 3-lea parametru, clearInterval
--inputuri functionale de tip text, buton, radio
 -localStorage, Json parse si stringify
 -parcurgere arbori DOM :parentElement, children

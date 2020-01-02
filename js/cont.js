@@ -14,6 +14,22 @@ function afiseaza_dimensiuni() {
 function sunt_cuvinte(x){
 	return typeof(x) == 'string';
 }
+
+function go() {
+	var x = document.getElementById("marca");
+	x = x.value;
+	window.open("https://www." + x.toLowerCase() + ".com");
+}
+
+function f(element)
+{
+	var x = document.getElementsByTagName("p");
+	for (var i=0;i<x.length;i++)
+	{
+		x[i].setAttribute("style","color:" + element.value);
+	}
+}
+
 function start(){
 	// classa Math
 	let x = document.getElementById("sold");
