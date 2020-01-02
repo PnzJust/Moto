@@ -63,5 +63,7 @@ function start(){
 	x.innerHTML = text;
 
 	document.getElementById("parinte").addEventListener("mousemove",mouse_move);
+	document.getElementById("non_check").addEventListener("click", function(event){
+		event.preventDefault()});
 
 }

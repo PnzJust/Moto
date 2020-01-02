@@ -2,7 +2,6 @@ TW - proiect partea a II-a
 
 -for (of)
 -schimbare clasa cu className, classList
--eveniment-o metoda (preventDefault, stopPropagation)
 -addEventListener cu parametrul al treilea =true
 -setInterval cu al 3-lea parametru, clearInterval
 -localStorage, Json parse si stringify
