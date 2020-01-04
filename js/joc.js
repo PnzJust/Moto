@@ -11,4 +11,12 @@ function mouse_move()
 
 function start(){
 	document.getElementById("parinte").addEventListener("mousemove",mouse_move);
+	document.getElementById("parinte").addEventListener("click",function() {
+		var dimensiuni = window.getComputedStyle(this, null);
+		alert("Dimensiunile parintelui sunt " + dimensiuni["height"] +" x " + dimensiuni["width"]);
+	},true);
+	document.getElementById("PUNCT").addEventListener("click",function(){
+		var dimensiuni = window.getComputedStyle(this, null);
+		alert("Dimensiunile parintelui sunt " + dimensiuni["height"] +" x " + dimensiuni["width"]);
+	},true);
 }
