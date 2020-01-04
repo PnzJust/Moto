@@ -20,3 +20,14 @@ function start(){
 		alert("Dimensiunile parintelui sunt " + dimensiuni["height"] +" x " + dimensiuni["width"]);
 	},true);
 }
+
+var ABC = setInterval(SchimbaCuloarea, 300, Math.floor(Math.random()*1000%256));
+
+
+function SchimbaCuloarea(parametru){
+	document.getElementById('ABC').style.backgroundColor = "rgb("+Math.floor(Math.random()*1000%256)+","+Math.floor(Math.random()*1000%256)+","+parametru+")";
+}
+
+function STOP(){
+	clearInterval(ABC);
+}
