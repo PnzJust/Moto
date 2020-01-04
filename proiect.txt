@@ -4,4 +4,4 @@ TW - proiect partea a II-a
 -schimbare clasa cu className, classList
 -addEventListener cu parametrul al treilea =true
 -setInterval cu al 3-lea parametru, clearInterval
--parcurgere arbori DOM :parentElement, children 
+-parcurgere arbori DOM :parentElement, children
