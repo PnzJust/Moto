@@ -21,7 +21,7 @@ function go() {
 	window.open("https://www." + x.toLowerCase() + ".com");
 }
 
-function f(element)
+function colorare(element)
 {
 	var x = document.getElementsByTagName("p");
 	for (var i=0;i<x.length;i++)
@@ -30,16 +30,15 @@ function f(element)
 	}
 }
 
-
-function mouse_move()
-{
-
-    var punct = document.getElementById("PUNCT");
-    var x = event.clientX;
-    var y = event.clientY;
-    punct.style.left = x + "px";
-    punct.style.top  = y + "px";
+function save_sold() {
+	var x = document.getElementById("sold").innerHTML;
+	localStorage.setItem("SOLD", x);
 }
+
+function alert_sold() {
+	alert(localStorage.getItem("SOLD"));
+}
+
 
 function start(){
 	// classa Math
@@ -62,7 +61,6 @@ function start(){
 	text = "PREFERINTE: " + toate;
 	x.innerHTML = text;
 
-	document.getElementById("parinte").addEventListener("mousemove",mouse_move);
 	document.getElementById("non_check").addEventListener("click", function(event){
 		event.preventDefault()});
 

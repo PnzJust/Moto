@@ -3,7 +3,7 @@
 <head>
 <title>Motocicleta, prietenul omului</title>
 <link rel="stylesheet" href="css/style.css" type="text/css" />
-<link rel="stylesheet" href="css/chopper.css" type="text/css" />
+<script src="js/joc.js" ></script>
 <!-- aici avem metadata -->
   <meta name="description" content="Proiect cu si despre motociclete">
   <meta name="keywords" content="HTML,CSS,JavaScript,Mobilitate">
@@ -12,7 +12,7 @@
 
 
 </head>
-<body>
+<body onload="start()">
 <div align="center">
 	<div id="continut">
 	<div id="panoul"></div>
@@ -53,21 +53,12 @@
 		</li>
 	</ul>
 		<div id="continut">
-			<div style="padding:20px 30px 40px 30px;">
-			<p>
-				Un chopper e o motocicletă joasă, cu cadrul alungit și furca roții este mult mai înclinată. Motoarele folosite sunt preluate de pe cruisere.
-			</p>
-			<br>
-			<p>
-				Modele celebre de chopper:
-			</p>
-			<nav>
-				<a href="http://www.harley-davidson-bucuresti.ro/">Harley Davidson</a>
-				<a href="http://www.harley-davidson-bucuresti.ro/">Hot Rod</a>
-				<a href="http://v8choppers.com/models/touring-trikes/">Touring</a>
-				<a href="http://v8choppers.com/models/">Classic</a>
-			</nav>
-			</div>
+
+				<div id="parinte" style="height:250px;width:800px;border:5px solid red;">
+					<div style="background-color:green;height:25px;width:25px;position:absolute" id="PUNCT"></div>
+				</div>
+
+			
 		</div>
 	</div>
 </div>
