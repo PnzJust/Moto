@@ -30,13 +30,23 @@ function colorare(element)
 	}
 }
 
+function JS(sold, text) {
+  this.sold = sold;
+  this.text = text;
+}
+
 function save_sold() {
 	var x = document.getElementById("sold").innerHTML;
-	localStorage.setItem("SOLD", x);
+	
+	var upload = new JS("SOLD", x);
+	upload = JSON.stringify(upload);
+	localStorage.setItem("SOLD", upload);
 }
 
 function alert_sold() {
-	alert(localStorage.getItem("SOLD"));
+	var download = localStorage.getItem("SOLD");
+	download = JSON.parse(download);
+	alert(download.text);
 }
 
 
