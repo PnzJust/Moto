@@ -3,3 +3,7 @@ CSS
 
 JS:
   -parcurgere arbori DOM :parentElement, children
+  -let
+
+NodeJs:
+	-ceva simplu

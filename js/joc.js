@@ -17,7 +17,7 @@ function start(){
 	},true);
 	document.getElementById("PUNCT").addEventListener("click",function(){
 		var dimensiuni = window.getComputedStyle(this, null);
-		alert("Dimensiunile parintelui sunt " + dimensiuni["height"] +" x " + dimensiuni["width"]);
+		alert("Dimensiunile punctului sunt " + dimensiuni["height"] +" x " + dimensiuni["width"]);
 	},true);
 
 
